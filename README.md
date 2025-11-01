@@ -37,7 +37,11 @@ Click on each button to see its functionality:
 ## 🚀 How to Run
 
 1. Install **XAMPP** and start **Apache + MySQL**.  
-2. Copy `rental_app` folder to `C:\xampp\htdocs\`.  
-3. Import `database.sql` using **phpMyAdmin**.  
-4. Open browser:  
+2. Copy the `rental_app` folder to `C:\xampp\htdocs\`.  
+3. Import the database using **phpMyAdmin**:  
+   - Open phpMyAdmin (`http://localhost/phpmyadmin/`).  
+   - Create a new database (e.g., `rental_db`).  
+   - Select the **Import** tab and choose the file `schema.sql` from the `rental_app` folder.  
+   - Click **Go** to build the database structure.  
+4. Open the project in your browser:  
 
