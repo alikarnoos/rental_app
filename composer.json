@@ -1,0 +1,16 @@
+{
+    "name": "karnoos/rental_app",
+    "autoload": {
+        "psr-4": {
+            "Karnoos\\RentalApp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ali"
+        }
+    ],
+    "require": {
+        "phpoffice/phpspreadsheet": "^5.0"
+    }
+}
